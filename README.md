@@ -10,6 +10,8 @@ Basic functions to operate the ATmega328/328P in Master Transmitter or Master Re
 *I2C_read_ack*: reads a byte from the I2C interface and transmits an ACK bit. Returns the read value if successful and 0 if not.
 *I2C_read_nack*: reads a byte from the I2C interface but does not transmit an ACK bit. Returns the read value if successful and 0 if not.
 
+Credit to embedds.com for I2C code examples that inspired this project.
+
 Changelog
 ---------
 *v1.0* (1/9/2018): Initial commit.
