@@ -1,8 +1,8 @@
-#I2C master library for the ATmega328/328P
+# I2C master library for the ATmega328/328P
 
 Basic functions to operate the ATmega328/328P in Master Transmitter or Master Receiver mode. These have been tested on the 328/328P, and should work (but have not been tested) for the 48A/48PA/88A/88PA/168A/168PA.
 
-##Functions
+## Functions
 
 **I2C_init**: initializes the I2C interface with the provided bitrate. Choose an appropriate SCL frequency (baud rate) for your peripheral, then calculate the bitrate according to the following: SCL frequency = (CPU clock frequency) / (16 + 2*bitrate). The prescaler has been hardcoded to 1, but this may be updated in the future.
 
@@ -20,6 +20,6 @@ Basic functions to operate the ATmega328/328P in Master Transmitter or Master Re
 
 Credit to embedds.com for I2C code examples that inspired this project.
 
-##Changelog
+## Changelog
 
 **v1.0** (1/9/2018): Initial commit.
